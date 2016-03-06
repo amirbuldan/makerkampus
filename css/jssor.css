@@ -1,0 +1,91 @@
+
+        
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('assets/images/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+
+
+.style1{
+
+    position: relative; margin: 0 auto; top: 0px; left: 0px; width: 820px; height: 380px; overflow: hidden; visibility: hidden;
+}
+
+.style2{
+
+    position: absolute; top: 0px; left: 0px;
+}
+
+.style3{
+
+    filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+}
+
+.style4{
+
+    position:absolute;display:block;background:url('../images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+}
+
+.style5{
+    cursor: default; position: relative; top: 0px; left: 0px; width: 890px; height: 390px; overflow: hidden;
+}
+
+.style6{
+
+    position: absolute; top: 30px; left: 100px; width: 50px; height: 50px;
+}
+
+.style8{
+
+    position: absolute; top: 200px; left: 550px; width: 200px; height: 100px; background-color: rgba(111, 90, 127, 0.3); font-size: 24px; color: #ffffff; line-height: 100px; text-align: center;
+}
+
+.style9{
+    position: absolute; top: 300px; left: 20px; width: 250px; height: 30px; background-color: rgba(0, 0, 7, 0.4); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;
+}
